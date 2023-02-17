@@ -10,255 +10,353 @@
 </head>
 <body>
 
-    <section class="intro">
-        <div class="intro__info">
-                <img src="/img/intro_info-logo.svg" alt="img" class="intro__info-logo">
-                <h1 class="intro__info-title">HIGH JEWELRY</h1>
-                <div class="intro__info-subtitle">
-                    <img src="/img/info_subtitle-line.png" alt="icon" class="info__subtitle-line">
-                    <h3 class="info__subtitle">Смотреть коллекцию</h3>
+    <header class="header">
+        <img src="/img/intro_info-logo.svg" alt="img" class="intro__info-logo">
+        <div class="header__navbar-icons">
+            <img src="/img/navbar_icon-favourite.svg" alt="icon" class="navbar__icon favourite">
+            <img src="/img/navbar_icon-profile.svg" alt="icon" class="navbar__icon profile">
+            <img src="/img/navbar_icon-cart.svg" alt="icon" class="navbar__icon cart">
+        </div>
+        <img src="/img/header_navbar-menu.svg" alt="icon" class="header__navbar-menu">
+    </header>
+
+    <main class="main">
+
+        <section class="intro">
+            <div class="intro__container">
+                <h1 class="intro__title">HIGH JEWELRY</h1>
+                <div class="subtitle__block">
+                    <img src="/img/subtitle.png" alt="img" class="subtitle__block-line">
                 </div>
+            </div>
+            <img src="/img/intro_product-img.png" alt="img" class="intro__illustration">
+            <div class="intro__footer">
                 <div class="intro__language-toggle">
-
                     <span class="on">RU</span>
-
                     <span class="off">EN</span>
-
                 </div>
-        </div>
+                <div class="product__info">
+                    <p class="product__title">КОЛЬЦО TRINITY, Cartier</p>
+                    <p class="product__description">Белое золото, бриллианты</p>
+                    <p class="product__price">498 000 ₽</p>
+                </div>
+            </div>
+        </section>
 
-            <img src="/img/intro_product-img.png" alt="img" class="intro__product">
+        <section class="gender">
 
-        <div class="intro__menu">
-            <header class="header">
-                <nav class="header__navbar">
-                    <div class="header__navbar-icons">
-                        <img src="/img/navbar_icon-favourite.svg" alt="icon" class="navbar__icon favourite">
-                        <img src="/img/navbar_icon-profile.svg" alt="icon" class="navbar__icon profile">
-                        <img src="/img/navbar_icon-cart.svg" alt="icon" class="navbar__icon cart">
+            <div class="gender__section male">
+                <a href="#" class="gender__link">Перейти в раздел</a>
+                <h2 class="gender__title">Для мужчин</h2>
+                <img src="/img/info_subtitle-line.png" alt="icon" class="gender__line">
+            </div>
+
+            <div class="gender__section female">
+                <a href="#" class="gender__link">Перейти в раздел</a>
+                <h2 class="gender__title">Для женщин</h2>
+                <img src="/img/info_subtitle-line.png" alt="icon" class="gender__line">
+            </div>
+
+        </section>
+
+        <section class="location">
+
+            <div class="location__info">
+                <div class="location__info-block">
+                    <h2 class="location__info-heading">Найди<br> бутик около себя</h2>
+                    <p class="location__info-text">
+                        Введите свой адрес и узнайте о самых ближайших бутиках к вам
+                    </p>
+                    <form class="location__info-find-form">
+                        <input type="text" class="find-form" placeholder="Введите адрес">
+                        <img src="/img/find-form-arrow.svg" alt="icon" class="find-form-arrow">
+                    </form>
+                </div>
+            </div>
+
+            <div class="location__map">
+                <img src="/img/location_map.png" alt="img" class="map">
+
+            </div>
+
+        </section>
+
+        <section class="products">
+
+            <div class="products__cards left">
+
+                <div class="product__card">
+                    <img src="/img/card_ring-jow’s.png" alt="img" class="product__card-img">
+                    <div class="product__card-info">
+                        <h3 class="product__card-name">КОЛЬЦО jow’s, Cartier</h3>
+                        <p class="product__card-description">Белое золото, бриллианты</p>
+                        <p class="product__card-price">674 000 ₽</p>
                     </div>
-                    <img src="/img/header_navbar-menu.svg" alt="icon" class="header__navbar-menu">
-                </nav>
-            </header>
-            <div class="product__info">
-                <p class="product__title">КОЛЬЦО TRINITY, Cartier</p>
-                <p class="product__description">Белое золото, бриллианты</p>
-                <p class="product__price">498 000 ₽</p>
+                </div>
+
+                <div class="product__card">
+                    <img src="/img/card_ring-croix.png" alt="img" class="product__card-img">
+                    <div class="product__card-info">
+                        <h3 class="product__card-name">КОЛЬЦО croix, Cartier</h3>
+                        <p class="product__card-description">Желтое, белое, розовое золото</p>
+                        <p class="product__card-price">432 000 ₽</p>
+                    </div>
+                </div>
+
             </div>
-        </div>
-    </section>
 
-    <section class="gender">
-
-        <div class="gender__section male">
-            <a href="#" class="gender__link">Перейти в раздел</a>
-            <h2 class="gender__title">Для мужчин</h2>
-            <img src="/img/info_subtitle-line.png" alt="icon" class="gender__line">
-        </div>
-
-        <div class="gender__section female">
-            <a href="#" class="gender__link">Перейти в раздел</a>
-            <h2 class="gender__title">Для женщин</h2>
-            <img src="/img/info_subtitle-line.png" alt="icon" class="gender__line">
-        </div>
-
-    </section>
-
-    <section class="location">
-
-        <div class="location__info">
-            <div class="location__info-block">
-                <h2 class="location__info-heading">Найди бутик около себя</h2>
-                <p class="location__info-text">
-                    Введите свой адрес и узнайте о самых ближайших бутиках к вам
-                </p>
-                <form class="location__info-find-form">
-                    <input type="text" class="find-form" placeholder="Введите адрес">
-                    <img src="/img/find-form-arrow.svg" alt="icon" class="find-form-arrow">
-                </form>
-            </div>
-        </div>
-
-        <div class="location__map">
-            <img src="/img/location_map.png" alt="img" class="map">
-            <!-- <img src="/img/location_map-mark_active.svg" alt="icon" class="location__map-icon" active> -->
-            <!-- <img src="/img/location_map-mark_not-active.svg" alt="icon" class="location__map-icon"> -->
-            <!-- <p class="address">ул. Тверская, 24</p> -->
-        </div>
-
-    </section>
-
-    <section class="products">
-
-        <div class="products__cards left">
-
-            <div class="product__card">
-                <img src="/img/card_ring-jow’s.png" alt="img" class="product__card-img">
-                <div class="product__card-info">
-                    <h3 class="product__card-name">КОЛЬЦО jow’s, Cartier</h3>
-                    <p class="product__card-description">Белое золото, бриллианты</p>
-                    <p class="product__card-price">674 000 ₽</p>
+            <div class="product__card demonstration">
+                <div class="product__card-info demonstration">
+                    <h3 class="product__card-name demonstration">Колье etoile, HUBLOT</h3>
+                    <p class="product__card-description demonstration">Белое золото, бриллианты</p>
+                    <p class="product__card-price demonstration">539 000 ₽</p>
                 </div>
             </div>
 
-            <div class="product__card">
-                <img src="/img/card_ring-croix.png" alt="img" class="product__card-img">
-                <div class="product__card-info">
-                    <h3 class="product__card-name">КОЛЬЦО croix, Cartier</h3>
-                    <p class="product__card-description">Желтое, белое, розовое золото</p>
-                    <p class="product__card-price">432 000 ₽</p>
+            <div class="products__cards right">
+
+                <div class="product__card">
+                    <img src="/img/card_ear-clip-CHIMERA-925.png" alt="img" class="product__card-img">
+                    <div class="product__card-info">
+                        <h3 class="product__card-name">Серьги moon, HUBLOT</h3>
+                        <p class="product__card-description">Желтое золото, сапфир</p>
+                        <p class="product__card-price">498 000 ₽</p>
+                    </div>
                 </div>
-            </div>
 
-        </div>
-
-        <div class="product__card demonstration">
-            <div class="product__card-info demonstration">
-                <h3 class="product__card-name demonstration">Колье etoile, HUBLOT</h3>
-                <p class="product__card-description demonstration">Белое золото, бриллианты</p>
-                <p class="product__card-price demonstration">539 000 ₽</p>
-            </div>
-        </div>
-
-        <div class="products__cards right">
-
-            <div class="product__card">
-                <img src="/img/card_ear-clip-CHIMERA-925.png" alt="img" class="product__card-img">
-                <div class="product__card-info">
-                    <h3 class="product__card-name">Серьги moon, HUBLOT</h3>
-                    <p class="product__card-description">Желтое золото, сапфир</p>
-                    <p class="product__card-price">498 000 ₽</p>
+                <div class="product__card">
+                    <img src="/img/card_ear-clip-CHIMERA-1.png" alt="img" class="product__card-img">
+                    <div class="product__card-info">
+                        <h3 class="product__card-name">серьги win, BLANCPAIN</h3>
+                        <p class="product__card-description">Желтое золото, жемчуг</p>
+                        <p class="product__card-price">398 000 ₽</p>
+                    </div>
                 </div>
-            </div>
-
-            <div class="product__card">
-                <img src="/img/card_ear-clip-CHIMERA-1.png" alt="img" class="product__card-img">
-                <div class="product__card-info">
-                    <h3 class="product__card-name">серьги win, BLANCPAIN</h3>
-                    <p class="product__card-description">Желтое золото, жемчуг</p>
-                    <p class="product__card-price">398 000 ₽</p>
-                </div>
-            </div>
-
-        </div>
-
-    </section>
-
-    <section class="socials">
-
-        <h2 class="socials__title">Мы<br> в социальных сетях</h2>
-
-        <img src="/img/socials_slides.png" alt="img" class="socials__slides">
-
-        <div class="socials__navigation">
-
-            <div class="navigation__socials">
-
-                <img src="/img/navigation_social-facebook.svg" alt="icons" class="navigation__social">
-
-                <img src="/img/navigation_social-instagram.svg" alt="icons" class="navigation__social">
 
             </div>
 
-            <div class="slider">
+        </section>
 
-                <img src="/img/slider_arrow-prev.png" alt="icons" class="slider__arrow-prev">
+        <section class="socials">
 
-                <img src="/img/slider_indicators.svg" alt="icons" class="slider__indicators">
+            <h2 class="socials__title">Мы<br> в социальных сетях</h2>
 
-                <img src="/img/slider_arrow-next.png" alt="icons" class="slider__arrow-next">
+            <img src="/img/socials_slides.png" alt="img" class="socials__slides">
 
-            </div>
-
-        </div>
-
-    </section>
-
-    <section class="subscribe">
-
-        <img src="/img/subscribe_bg.png" alt="img" class="subscribe__bg">
-
-        <div class="subscribe__form">
-
-            <div class="form__wrapper">
-
-                <p class="form__wrapper-label">телефон флагманского магазина</p>
-                <p class="form__wrapper-phone">+7 800 456 456</p>
-
-                <p class="form__wrapper-label">подпишитесь на новости</p>
-
-                <form class="subscribe__info-find-form">
-                    <input type="text" class="subscribe-find-form" placeholder="Введите адрес">
-                    <img src="/img/subscribe_find-form-arrow.png" alt="icon" class="subscribe-form-arrow">
-                </form>
-
-            </div>
-
-        </div>
-
-    </section>
-
-    <footer class="footer">
-
-        <nav class="footer__links">
-
-            <p class="footer__link">работа в компании<a href="#" class="link"></a></p>
-
-            <p class="footer__link">условия пользования<a href="#" class="link"></a></p>
-
-            <p class="footer__link">выходные данные<a href="#" class="link"></a></p>
-
-            <p class="footer__link">политика конфиденциальности<a href="#" class="link"></a></p>
-
-            <p class="footer__link">карта сайта<a href="#" class="link"></a></p>
-
-        </nav>
-
-        <div class="footer__contacts">
-
-            <img src="/img/footer_logo.svg" alt="icon" class="footer__logo">
-
-            <div class="footer__contacts-phone">
-
-                <p class="contacts__phone-heading">телефон горячей линии</p>
-
-                <p class="contacts__phone">+7 800 456 456</p>
+            <div class="socials__navigation">
 
                 <div class="navigation__socials">
 
-                    <img src="/img/navigation_social-facebook.svg" alt="icons" class="navigation__social">
-    
-                    <img src="/img/navigation_social-instagram.svg" alt="icons" class="navigation__social">
-    
+                    <a href="https://www.facebook.com/" target="_blank"><img src="/img/navigation_social-facebook.svg" alt="icons" class="navigation__social"></a>
+        
+                    <a href="https://www.instagram.com/" target="_blank"><img src="/img/navigation_social-instagram.svg" alt="icons" class="navigation__social"></a>
+
                 </div>
 
-            </div>
+                <div class="slider">
 
-            <div class="footer__subscribe">
+                    <img src="/img/slider_arrow-prev.png" alt="icons" class="slider__arrow-prev">
 
-                <p class="footer__subscribe-label">подпишитесь на новости</p>
+                    <img src="/img/slider_indicators.svg" alt="icons" class="slider__indicators">
 
-                <form class="footer__info-find-form">
-
-                    <input type="text" class="footer-find-form" placeholder="Введите адрес">
-
-                    <img src="/img/find-form-arrow.svg" alt="icon" class="footer-form-arrow">
-
-                </form>
-
-                <div class="footer__subscribe-stores">
-
-                    <img src="/img/apple-store-badge.svg" alt="icon" class="subscribe__store apple">
-
-                    <img src="/img/google-play-store-badge.svg" alt="icon" class="subscribe__store goole-play">
+                    <img src="/img/slider_arrow-next.png" alt="icons" class="slider__arrow-next">
 
                 </div>
 
             </div>
 
+        </section>
+
+        <section class="subscribe">
+
+            <img src="/img/subscribe_bg.png" alt="img" class="subscribe__bg">
+
+            <div class="subscribe__form">
+
+                <div class="form__wrapper">
+
+                    <p class="form__wrapper-label">телефон флагманского магазина</p>
+                    <p class="form__wrapper-phone">+7 800 456 456</p>
+
+                    <p class="form__wrapper-label">подпишитесь на новости</p>
+
+                    <form class="subscribe__info-find-form">
+                        <input type="text" class="subscribe-find-form" placeholder="Введите адрес">
+                        <img src="/img/subscribe_find-form-arrow.png" alt="icon" class="subscribe-form-arrow">
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <footer class="footer">
+
+            <nav class="footer__links">
+                <p class="footer__link">работа в компании<a href="#" class="link"></a></p>
+                <p class="footer__link">условия пользования<a href="#" class="link"></a></p>
+                <p class="footer__link">выходные данные<a href="#" class="link"></a></p>
+                <p class="footer__link">политика конфиденциальности<a href="#" class="link"></a></p>
+                <p class="footer__link">карта сайта<a href="#" class="link"></a></p>
+            </nav>
+
+            <div class="footer__contacts">
+
+                <a href="/"><img src="/img/footer_logo.svg" alt="icon" class="footer__logo"></a>
+
+                <div class="footer__contacts-phone">
+
+                    <p class="contacts__phone-heading">телефон горячей линии</p>
+
+                    <p class="contacts__phone">+7 800 456 456</p>
+
+                    <div class="navigation__socials">
+
+                        <a href="https://www.facebook.com/" target="_blank"><img src="/img/navigation_social-facebook.svg" alt="icons" class="navigation__social"></a>
+        
+                        <a href="https://www.instagram.com/" target="_blank"><img src="/img/navigation_social-instagram.svg" alt="icons" class="navigation__social"></a>
+        
+                    </div>
+
+                </div>
+
+                <div class="footer__subscribe">
+
+                    <p class="footer__subscribe-label">подпишитесь на новости</p>
+
+                    <form class="footer__info-find-form">
+
+                        <input type="text" class="footer-find-form" placeholder="Введите адрес">
+
+                        <img src="/img/find-form-arrow.svg" alt="icon" class="footer-form-arrow">
+
+                    </form>
+
+                    <div class="footer__subscribe-stores">
+
+                        <a href="https://www.apple.com/ru/app-store/" target="_blank"><img src="/img/apple-store-badge.svg" alt="icon" class="subscribe__store apple"></a>
+
+                        <a href="https://play.google.com/" target="_blank"><img src="/img/google-play-store-badge.svg" alt="icon" class="subscribe__store goole-play"></a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </footer>
+
+    </main>
+
+    <section class="popup">
+
+        <header class="popup__header">
+            <a href="/"><img src="/img/footer_logo.svg" alt="img" class="popup__header-logo"></a>
+            <div class="popup__header-icons">
+                <img src="/img/navbar_icon-favourite.svg" alt="icon" class="popup__header-icon favourite">
+                <img src="/img/navbar_icon-profile.svg" alt="icon" class="popup__header-icon profile">
+                <img src="/img/navbar_icon-cart.svg" alt="icon" class="popup__header-icon cart">
+            </div>
+            <img src="/img/header_navbar-menu-close.svg" alt="icon" class="popup__header-close">
+        </header>
+
+        <nav class="popup__links">
+            <div class="popup__links-bar">
+                <p class="popup__link">Ювелирные изделия<a href="#" class="link"></a></p>
+                <p class="popup__link">часы<a href="#" class="link"></a></p>
+                <p class="popup__link">ароматы<a href="#" class="link"></a></p>
+                <p class="popup__link">бренды<a href="#" class="link"></a></p>
+                <p class="popup__link">изделия из кожи<a href="#" class="link"></a></p>
+                <p class="popup__link">Свадебные украшения<a href="#" class="link"></a></p>
+                <p class="popup__link">другое<a href="#" class="link"></a></p>
+            </div>
+        </nav>
+
+        <div class="popup__container">
+
+            <div class="popup__sections">
+
+                <div class="popup__section-gender">
+                    <p class="popup__section-heading">для кого</p>
+                    <a href="#" class="popup__section-item">Для женщин</a>
+                    <a href="#" class="popup__section-item">Для мужчин</a>
+                    <a href="#" class="popup__section-item">Для детей</a>
+                </div>
+
+                <div class="popup__section-categories">
+                    <p class="popup__section-heading">Категории</p>
+                    <a href="#" class="popup__section-item">Кольца</a>
+                    <a href="#" class="popup__section-item">Браслеты</a>
+                    <a href="#" class="popup__section-item">Колье</a>
+                    <a href="#" class="popup__section-item">Серьги</a>
+                    <a href="#" class="popup__section-item">Броши</a>
+                </div>
+
+                <div class="popup__section-fabric">
+                    <p class="popup__section-heading">материал</p>
+                    <a href="#" class="popup__section-item">Изделия с бриллиантами</a>
+                    <a href="#" class="popup__section-item">Желтое золото</a>
+                    <a href="#" class="popup__section-item">Белое золото</a>
+                    <a href="#" class="popup__section-item">Розовое золото</a>
+                </div>
+
+                <div class="popup__section-brand">
+                    <p class="popup__section-heading">бренд</p>
+                    <a href="#" class="popup__section-item">Mercury</a>
+                    <a href="#" class="popup__section-item">Chopard</a>
+                    <a href="#" class="popup__section-item">Cartier</a>
+                    <a href="#" class="popup__section-item">Graff</a>
+                    <a href="#" class="popup__section-item">Garrard</a>
+                </div>
+            </div>
+
+            <a href="#" class="show-more-brands">Показать все бренды</a>
+
+            <img src="/img/Popup/divider-line.png" alt="img" class="divider-line">
+
+            <div class="popup__footer">
+
+                <div class="new-collection">
+
+                    <p class="new-collection__span">Новая коллекция by Mercury</p>
+
+                    <h2 class="new-collection__title">JUSTE UN CLOU</h2>
+
+                    <a href="#" class="new-collection__link">Cмотреть коллекцию →</a>
+
+                </div>
+
+                <div class="popup__contacts">
+
+                    <div class="contacts-phone">
+                        <p class="phone-heading">телефон горячей линии</p>
+                        <p class="phone">+7 800 456 456</p>
+                        <div class="popup__socials">
+                            <a href="https://www.facebook.com/" target="_blank"><img src="/img/navigation_social-facebook.svg" alt="icons" class="popup__social"></a>
+        
+                            <a href="https://www.instagram.com/" target="_blank"><img src="/img/navigation_social-instagram.svg" alt="icons" class="popup__social"></a>
+                        </div>
+                    </div>
+
+                    <div class="popup__subscribe">
+                        <p class="popup__subscribe-label">подпишитесь на новости</p>
+                        <form class="popup__info-find-form">
+                            <input type="text" class="popup-find-form" placeholder="Введите адрес">
+                            <img src="/img/find-form-arrow.svg" alt="icon" class="popup-form-arrow">
+                        </form>
+                        <div class="popup__subscribe-stores">
+                            <a href="https://www.apple.com/ru/app-store/" target="_blank"><img src="/img/apple-store-badge.svg" alt="icon" class="popup__subscribe-store apple"></a>
+
+                            <a href="https://play.google.com/" target="_blank"><img src="/img/google-play-store-badge.svg" alt="icon" class="popup__subscribe-store goole-play"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+    </section>
 
-    </footer>
+    <script src="/js/script.js"></script>
    
 </body>
 </html>
