@@ -80,13 +80,6 @@ body {
     transform: scale(1.2);
 }
 
-/* Main */
-/* main {
-    position: relative;
-    margin-top: -300px;
-    z-index: -10;
-} */
-
 /* Intro */
 .intro {
     display: flex;
@@ -124,14 +117,12 @@ body {
     padding-left: 124px;
     cursor: pointer;
 }
-
 .intro__illustration {
     position: absolute;
     margin: 427px 387px 427px 731px;
     width: 322px;
     height: 170px;
 }
-
 .intro__footer {
     display: flex;
     justify-content: space-between;
@@ -139,7 +130,6 @@ body {
     height: 86px;
     margin: 0 162px 60px;
 }
-
 .intro__language-toggle {
     display: flex;
     width: 51px;
@@ -176,7 +166,6 @@ body {
     color: #C4C4C4;
     cursor: pointer;
 }
-
 .product__info {
     width: 198px;
     height: 86px;
@@ -314,7 +303,6 @@ main {
     color: #FFFFFF;
     margin: 0 162px 60px 0;
 }
-
 .location__info-find-form {
     display: flex;
     width: 363px;
@@ -340,7 +328,6 @@ main {
     height: 15px;
     cursor: pointer;
 }
-
 .location__map {
     margin: 0 0 20px -8px;
 }
@@ -534,7 +521,6 @@ main {
     color: #959595;
     margin-bottom: 110px;
 }
-
 .subscribe__info-find-form {
     display: flex;
     width: 280px;
@@ -593,7 +579,6 @@ main {
 .footer__link:hover {
     text-decoration: underline;
 }
-
 .footer__contacts {
     display: flex;
     justify-content: space-between;
@@ -645,7 +630,6 @@ main {
     height: 35px;
     cursor: pointer;
 }
-
 .footer__subscribe {
     display: flex;
     flex-direction: column;
@@ -688,7 +672,6 @@ main {
     height: 23px;
     cursor: pointer;
 }
-
 .footer__subscribe-stores {
     display: flex;
     align-items: center;
@@ -720,12 +703,10 @@ main {
     opacity: 0;
     transition: visibility .3s, opacity 0.3s linear;
 }
-
 .popup_opened {
     visibility: visible;
     opacity: 1;
 }
-
 .popup__header {
     display: flex;
     justify-content: space-between;
@@ -766,7 +747,6 @@ main {
 .popup__header-close:hover {
     transform: scale(1.2);
 }
-
 .popup__container {
     position: relative;
     top: 0;
@@ -776,7 +756,6 @@ main {
     height: 671px;
     margin: 0 162px 75px;
 }
-
 .popup__links {
     width: 1440px;
     height: 75px;
@@ -806,7 +785,6 @@ main {
 .popup__link:hover {
     text-decoration: underline;
 }
-
 .popup__sections {
     display: flex;
     justify-content: space-between;
@@ -854,7 +832,6 @@ main {
 .popup__section-item:last-child {
     margin-bottom: 0;
 }
-
 .show-more-brands {
     width: 161px;
     height: 21px;
@@ -866,12 +843,10 @@ main {
     color: #EFC58B;
     margin: 0 496px 70px 620px;
 }
-
 .divider-line {
     width: 1115px;
     margin-bottom: 70px;
 }
-
 .popup__footer {
     display: flex;
     justify-content: space-between;
@@ -879,7 +854,6 @@ main {
     height: 268px;
     margin-bottom: 76px;
 }
-
 .new-collection {
     display: flex;
     flex-direction: column;
@@ -926,14 +900,12 @@ main {
     color: #FFFFFF;
     margin: 0 30px 30px 494px;
 }
-
 .popup__contacts {
     display: flex;
     flex-direction: column;
     width: 280px;
     height: 268px;
 }
-
 .contacts-phone {
     display: flex;
     flex-direction: column;
@@ -962,7 +934,6 @@ main {
     color: #C2C2C2;
     margin-bottom: 15px;
 }
-
 .popup__socials {
     display: flex;
     justify-content: space-between;
@@ -976,7 +947,6 @@ main {
     height: 35px;
     cursor: pointer;
 }
-
 .popup__subscribe {
     display: flex;
     flex-direction: column;
@@ -1020,7 +990,6 @@ main {
     height: 23px;
     cursor: pointer;
 }
-
 .popup__subscribe-stores {
     display: flex;
     align-items: center;

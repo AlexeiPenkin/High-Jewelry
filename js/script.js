@@ -12,7 +12,6 @@ menuOpenButton.addEventListener("click", () => {
     openPopupMenu(popupMenu);
   });
 
-
 // Закрываем модальное окна //
 function closePopupMenu(popupMenu) {
     popupMenu.classList.remove("popup_opened");
