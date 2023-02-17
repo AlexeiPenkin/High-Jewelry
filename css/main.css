@@ -85,7 +85,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 1024px;
-    background-image: url('/img/intro_bg.png');
+    background-image: url('../img/intro_bg.png');
     background-repeat: no-repeat;
     background-position: right;
     margin-bottom: 20px;
@@ -222,7 +222,7 @@ main {
     align-items: center;
     width: 710px;
     height: 587px;
-    background-image: url('/img/gender_male-bg.png');
+    background-image: url('../img/gender_male-bg.png');
     background-repeat: no-repeat;
     filter: brightness(0.7);
 }
@@ -231,7 +231,7 @@ main {
     cursor: pointer;
 }
 .gender__section.female {
-    background-image: url('/img/gender-female-bg.png');
+    background-image: url('../img/gender_female-bg.png');
     background-repeat: no-repeat;
     cursor: pointer;
 }
@@ -357,7 +357,7 @@ main {
     position: relative;
     width: 600px;
     height: 820px;
-    background-image: url('/img/product_demonstration-img.png');
+    background-image: url('../img/product_demonstration-img.png');
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0 20px 0;
@@ -859,7 +859,7 @@ main {
     flex-direction: column;
     width: 749px;
     height: 268px;
-    background-image: url('/img/popup_footer-bg.png');
+    background-image: url('../img/popup_footer-bg.png');
     background-repeat: no-repeat;
     margin-right: 85px;
 }
