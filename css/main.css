@@ -2,31 +2,31 @@
     font-family: 'Futura PT';
     font-style: Light;
     font-weight: 300;
-    src: url('/fonts/FuturaPT-Light.woff2');
+    src: url('./../fonts/FuturaPT-Light.woff2') format("woff");
 }
 @font-face {
     font-family: 'Futura PT';
     font-style: Normal;
     font-weight: 400;
-    src: url('/fonts/FuturaPT-Book.woff2');
+    src: url('./../fonts/FuturaPT-Book.woff2') format("woff");
 }
 @font-face {
     font-family: 'Futura PT';
     font-style: Medium;
     font-weight: 450;
-    src: url('/fonts/FuturaPT-Medium.woff2');
+    src: url('./../fonts/FuturaPT-Medium.woff2') format("woff");
 }
 @font-face {
     font-family: 'Segoe UI';
     font-style: Light;
     font-weight: 300;
-    src: url('/fonts/SegoeUI-Light.woff2');
+    src: url('./../fonts/SegoeUI-Light.woff2') format("woff");
 }
 @font-face {
     font-family: 'Segoe UI';
     font-style: Italic;
     font-weight: 300;
-    src: url('/fonts/SegoeUI-Italic.woff2');
+    src: url('./../fonts/SegoeUI-Italic.woff2') format("woff");
 }
 body {
     max-width: 1440px;
@@ -204,8 +204,8 @@ body {
 /* Main */
 main {
     position: relative;
-    margin-top: -100px;
-    z-index: -10;
+    /* margin-top: -38px; */
+    /* z-index: -10; */
 }
 
 /* Gender */
@@ -468,6 +468,7 @@ main {
 .slider__arrow-prev {
     width: 51px;
     height: 29px;
+    cursor: pointer;
 }
 .slider__indicators {
     width: 133px;
@@ -477,6 +478,7 @@ main {
 .slider__arrow-next {
     width: 51px;
     height: 29px;
+    cursor: pointer;
 }
 
 /* Subscribe */
